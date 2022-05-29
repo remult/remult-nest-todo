@@ -21,6 +21,9 @@
     "test:e2e": "jest --config ./e2e/jest-e2e.json",
     "install":"cd ./frontend && npm i"
   },
+  "stackblitz": {
+    "startCommand": "npm run dev"
+  },
   "dependencies": {
     "@nestjs/common": "8.2.3",
     "@nestjs/core": "8.2.3",
