@@ -1,7 +1,12 @@
 # remult nest todo
 A todo app demo using `nest`, `react` and `remult`.
 
+See live on [stackblitz](https://stackblitz.com/edit/remult-nest-todo?file=README.md)
+
+
 The `nest` project structure is based on [nest's Authentication article](https://docs.nestjs.com/security/authentication) which was cloned from [github](https://github.com/nestjs/nest/tree/master/sample/19-auth-jwt)
+
+
 
 ## Run the project
 ```sh
