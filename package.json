@@ -19,7 +19,7 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./e2e/jest-e2e.json",
-    "install":"cd ./frontend && npm i"
+    "install": "cd ./frontend && npm i"
   },
   "stackblitz": {
     "startCommand": "npm run dev"
@@ -36,7 +36,7 @@
     "passport-local": "1.0.0",
     "pg": "^8.7.3",
     "reflect-metadata": "0.1.13",
-    "remult": "^0.13.28",
+    "remult": "^0.14.23",
     "rimraf": "3.0.2",
     "rxjs": "7.4.0"
   },

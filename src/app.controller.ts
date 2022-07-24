@@ -22,7 +22,11 @@ export class AppController {
   }
 
   @Get('testRemultOrm')
-  async getDataFromRemult(){
-    return await  this.remult.repo(Task).count();
+  async getDataFromRemult() {
+    return await this.remult.repo(Task).count();
+  }
+  @Get('api/test')
+  async getTest() {
+    return { result: await this.remult.repo(Task).count() };
   }
 }
